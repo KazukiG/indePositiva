@@ -71,12 +71,12 @@ namespace indePositiva
 
             if (randomNum % 2 == 0)
             {
-                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("O endereço é: '[ENDEREÇO CERTO]'");
                 Console.WriteLine("*R: c*");
             }
             else
             {
-                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("O endereço é: '[ENDEREÇO ERRADO]'");
                 Console.WriteLine("*R: e*");
             }
 
@@ -88,12 +88,12 @@ namespace indePositiva
 
             if (randomNum % 2 == 0)
             {
-                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("Data de nascimento é: '[DATA CERTA]'");
                 Console.WriteLine("*R: c*");
             }
             else
             {
-                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("Data de nascimento é: '[DATA ERRADA]'");
                 Console.WriteLine("*R: e*");
             }
 
@@ -105,12 +105,12 @@ namespace indePositiva
 
             if (randomNum % 2 == 0)
             {
-                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("Nome é: '[NOME CERTO]'");
                 Console.WriteLine("*R: c*");
             }
             else
             {
-                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("Nome é: '[NOME ERRADO]'");
                 Console.WriteLine("*R: e*");
             }
 
@@ -122,12 +122,12 @@ namespace indePositiva
 
             if (randomNum % 2 == 0)
             {
-                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("CPF é: '[CPF CERTO]'");
                 Console.WriteLine("*R: c*");
             }
             else
             {
-                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("CPF é: '[CPF ERRADO]'");
                 Console.WriteLine("*R: e*");
             }
 
