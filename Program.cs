@@ -31,11 +31,6 @@ namespace indePositiva
 
         private static int validador(int num)
         {
-            if (num % 2 == 0)
-                Console.WriteLine("*R: c*");
-            else
-                Console.WriteLine("*R: e*");
-
             string resp = Console.ReadLine();
 
             if (num % 2 == 0)
@@ -57,7 +52,16 @@ namespace indePositiva
         {
             int randomNum = random.Next();
 
-            Console.WriteLine("Nome da mãe é: 'Luiza Carvalho'");
+            if (randomNum % 2 == 0)
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("*R: c*");
+            }
+            else
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("*R: e*");
+            }
 
             return validador(randomNum);
         }
@@ -65,7 +69,16 @@ namespace indePositiva
         {
             int randomNum = random.Next();
 
-            Console.WriteLine("\nNome da CPF é: '123.123.123-12'");
+            if (randomNum % 2 == 0)
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("*R: c*");
+            }
+            else
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("*R: e*");
+            }
 
             return validador(randomNum);
         }
@@ -73,7 +86,16 @@ namespace indePositiva
         {
             int randomNum = random.Next();
 
-            Console.WriteLine("\nO endereço é: 'Rua Brasil'");
+            if (randomNum % 2 == 0)
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("*R: c*");
+            }
+            else
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("*R: e*");
+            }
 
             return validador(randomNum);
         }
@@ -81,7 +103,16 @@ namespace indePositiva
         {
             int randomNum = random.Next();
 
-            Console.WriteLine("\nNome da CPF é: '123.123.123-12'");
+            if (randomNum % 2 == 0)
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("*R: c*");
+            }
+            else
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("*R: e*");
+            }
 
             return validador(randomNum);
         }
@@ -89,7 +120,16 @@ namespace indePositiva
         {
             int randomNum = random.Next();
 
-            Console.WriteLine("\nNome da CPF é: '123.123.123-12'");
+            if (randomNum % 2 == 0)
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME CERTO]'");
+                Console.WriteLine("*R: c*");
+            }
+            else
+            {
+                Console.WriteLine("Nome da mãe é: '[NOME ERRADO]'");
+                Console.WriteLine("*R: e*");
+            }
 
             return validador(randomNum);
         }
