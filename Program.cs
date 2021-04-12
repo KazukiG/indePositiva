@@ -13,22 +13,28 @@ namespace indePositiva
             int cont = 0;
             Random random = new Random();
 
-            cont += (pergunta1(random));
-            cont += (pergunta2(random));
-            cont += (pergunta3(random));
-            if (cont < 3)
-            {
-                cont += (pergunta4(random));
-                cont += (pergunta5(random));
-            }
-            
-            if (cont < 3)
-                Console.WriteLine("\n-Justificativa-");
+            //cont += (pergunta1(random));
+            //cont += (pergunta2(random));
+            //cont += (pergunta3(random));
+            //if (cont < 3)
+            //{
+            //    cont += (pergunta4(random));
+            //    cont += (pergunta5(random));
+            //}
 
-            Console.WriteLine("\nRespostas certas: "+cont);
+            //if (cont < 3)
+            //    Console.WriteLine("\n-Justificativa-");
+
+            //Console.WriteLine("\nRespostas certas: "+cont);
             Console.ReadLine();
         }
 
+        private string GenerateKey()
+        {
+            Random random = new Random();
+            const string chars = "VF";
+            return new string(Enumerable.Repeat(chars, 5).Select(s => s[random.Next(s.Length)]).ToArray());
+        }
         private static int validador(int num)
         {
             string resp = Console.ReadLine();
